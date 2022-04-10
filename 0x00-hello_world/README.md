@@ -1,1 +1,1 @@
-My c programming scipt
+My c programming file
