@@ -1,14 +1,10 @@
 #include "main.h"
-
 /**
- * reset_to_98 - reset argument to 98
- * @n: A pointer to an int that will be update
- *
- *Return: void that means is correct
- */
-
-void reset_to_98(int *n)
-	
+* reset_to_98 -a function that takes a pointer to an int
+* @n: puntero
+* Return: (0)
+*/
+void reset_to_98(int *n)
 {
-*n = 98;
+	*n = 98;
 }
