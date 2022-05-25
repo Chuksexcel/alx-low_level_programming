@@ -1,7 +1,17 @@
-extern printf
-
 section .text
-   global main
+global main
 
 main:
-   push rbp
+	mov rax, 1
+	mov rdi, 1
+	mov rsi, msg
+	mov rdx, msglen
+	syscall
+
+	mov rax, 60
+	mov rdi, 0
+	syscall
+
+section .rodata
+	msg: db "Hello, Holberton", 10
+	msglen: equ $ - msg
